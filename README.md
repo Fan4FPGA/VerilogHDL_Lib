@@ -6,6 +6,6 @@
 
 **电路图：**
 
-> ![](.\pic\Synchronized Asynchronous Reset.png)
-
 ![](.\pic\Synchronized Asynchronous Reset.png)
+
+![p1](https://github.com/Fan4FPGA/VerilogHDL_Lib/blob/master/pic/Synchronized%20Asynchronous%20Reset.png)
