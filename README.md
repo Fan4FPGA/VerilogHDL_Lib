@@ -8,3 +8,4 @@
 
 > ![](.\pic\Synchronized Asynchronous Reset.png)
 
+![](.\pic\Synchronized Asynchronous Reset.png)
