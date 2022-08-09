@@ -6,5 +6,5 @@
 
 **电路图：**
 
-> ![](I:\G\VerilogHDL_Lib\pic\Synchronized Asynchronous Reset.png)
+> ![](.\pic\Synchronized Asynchronous Reset.png)
 
