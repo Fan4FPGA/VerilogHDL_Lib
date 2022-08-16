@@ -19,4 +19,7 @@
 ![功能仿真图1：](https://github.com/Fan4FPGA/VerilogHDL_Lib/blob/master/pic/s2p_1_fsm.png)
 
 ![功能仿真图2：](https://github.com/Fan4FPGA/VerilogHDL_Lib/blob/master/pic/s2p_2_always.png)
-
+## 三、并串转换
+**RTL code： SerializerN_1.v**
+**Teshbench: SerializerN_1_tb.v**
+**brief info: 使用OSERDESE2 和 obufds**
