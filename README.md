@@ -20,7 +20,15 @@
 
 ![功能仿真图2：](https://github.com/Fan4FPGA/VerilogHDL_Lib/blob/master/pic/s2p_2_always.png)
 
-## 三、HDMI发送及测试模块
+
+## 三、并串转换
+**RTL code： SerializerN_1.v**
+**Teshbench: SerializerN_1_tb.v**
+**brief info: 使用OSERDESE2 和 obufds**
+
+
+
+## 四、HDMI发送及测试模块
 
 文件夹：HDMI_Test_Demo.srcs
 
@@ -51,4 +59,3 @@ HDMI编码发送模块：HDMI_Test_Demo.srcs\sources_1\imports\src\rtl\hdmi_tx.v
 
 
 测试架构图：
-
