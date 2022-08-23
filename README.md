@@ -30,32 +30,49 @@
 
 ## 四、HDMI发送及测试模块
 
-文件夹：HDMI_Test_Demo.srcs
+**文件夹：HDMI_Test_Demo.srcs**
 
-HDMI编码发送模块：HDMI_Test_Demo.srcs\sources_1\imports\src\rtl\hdmi_tx.v
+**HDMI编码发送模块：**HDMI_Test_Demo.srcs\sources_1\imports\src\rtl\hdmi_tx.v
 
 ​								     HDMI_Test_Demo.srcs\sources_1\imports\src\rtl\SerializerN_1.v
 
-​								     HDMI_Test_Demo.srcs\sources_1\imports\src\rtl\TMDS_Encoder.v(TMDS编码算法从网下载的)
+​								     HDMI_Test_Demo.srcs\sources_1\imports\src\rtl\TMDS_Encoder.v(**TMDS编码算法从网下载的**)
 
-测试模块：				  HDMI_Test_Demo.srcs\sources_1\new\hdmi_display_demo.v
+**测试模块：**				  HDMI_Test_Demo.srcs\sources_1\new\hdmi_display_demo.v
 
 ​					                 HDMI_Test_Demo.srcs\sources_1\new\vga_timing_gen.v
 
-时钟IP：                      HDMI_Test_Demo.srcs\sources_1\ip\clk_wiz_0
+**时钟IP：**                      HDMI_Test_Demo.srcs\sources_1\ip\clk_wiz_0
 
 
 
-模块Testbench：HDMI_Test_Demo.srcs\sim_1\new\hdmi_displau_demo_tb.v
+**模块Testbench：**HDMI_Test_Demo.srcs\sim_1\new\hdmi_displau_demo_tb.v
 
 ​							  HDMI_Test_Demo.srcs\sim_1\new\vga_timing_gen_tb.v
 
 ​							  HDMI_Test_Demo.srcs\sources_1\imports\src\tb\SerializerN_1_tb.v
 
-约束文件：HDMI_Test_Demo.srcs\constrs_1\new\fpga_pin.xdc
+**约束文件：**HDMI_Test_Demo.srcs\constrs_1\new\fpga_pin.xdc
 
-测试板卡：米联客 MZ7030FA ； 芯片：xc7z030ffg676-2 
+**测试板卡：**米联客 MZ7030FA ； 芯片：xc7z030ffg676-2 
 
 
 
-测试架构图：
+**测试架构图：**![](https://github.com/Fan4FPGA/VerilogHDL_Lib/blob/master/pic/HDMI_TOPpng.png)
+
+![](https://github.com/Fan4FPGA/VerilogHDL_Lib/blob/master/pic/HDMI_TX_TOP.png)
+
+**VGA时序：**
+
+![](https://github.com/Fan4FPGA/VerilogHDL_Lib/blob/master/pic/VGA_Timing.png)
+
+![](https://github.com/Fan4FPGA/VerilogHDL_Lib/blob/master/pic/VGA_Timing1.png)
+
+![](https://github.com/Fan4FPGA/VerilogHDL_Lib/blob/master/pic/VGA_Timing_Parameters.png)
+
+**功能仿真**：
+
+![](https://github.com/Fan4FPGA/VerilogHDL_Lib/blob/master/pic/HDMI_Test1.png)
+
+![](https://github.com/Fan4FPGA/VerilogHDL_Lib/blob/master/pic/HDMI_Test2.png)
+
