@@ -23,7 +23,7 @@ wire async_RESET_n;
 reg sys_rst_n_r0,sys_rst_n_r;
 
 assign 	   sys_rst_n = sys_rst_n_r		;
-assign async_RESET_n = rst_n | locked	;
+assign async_RESET_n = rst_n & locked	;
 
 always @(posedge sys_clk or negedge async_RESET_n)
 begin
