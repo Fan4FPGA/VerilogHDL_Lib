@@ -1,0 +1,58 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 70 -defaultsOSRD
+preplace port ui_clk -pg 1 -y 670 -defaultsOSRD
+preplace port pkg_rd_last -pg 1 -y 550 -defaultsOSRD
+preplace port pkg_wr_areq -pg 1 -y 460 -defaultsOSRD
+preplace port cmos_25mhz -pg 1 -y 150 -defaultsOSRD
+preplace port pkg_wr_en -pg 1 -y 530 -defaultsOSRD
+preplace port IIC -pg 1 -y 110 -defaultsOSRD
+preplace port pkg_wr_last -pg 1 -y 510 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 90 -defaultsOSRD
+preplace port pkg_rd_en -pg 1 -y 590 -defaultsOSRD
+preplace port pkg_rd_areq -pg 1 -y 540 -defaultsOSRD
+preplace port fdma_reset_n -pg 1 -y 690 -defaultsOSRD
+preplace portBus pkg_wr_addr -pg 1 -y 500 -defaultsOSRD
+preplace portBus pkg_wr_data -pg 1 -y 480 -defaultsOSRD
+preplace portBus pkg_wr_size -pg 1 -y 520 -defaultsOSRD
+preplace portBus pkg_rd_data -pg 1 -y 570 -defaultsOSRD
+preplace portBus pkg_rd_addr -pg 1 -y 560 -defaultsOSRD
+preplace portBus pkg_rd_size -pg 1 -y 580 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 1 -y 120 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -y 340 -defaultsOSRD
+preplace inst MSXBO_FDMA_0 -pg 1 -lvl 2 -y 540 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -y 120 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 2 1 NJ
+preplace netloc MSXBO_FDMA_0_pkg_rd_en 1 2 1 NJ
+preplace netloc pkg_rd_addr_0_1 1 0 2 NJ 560 NJ
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 0 3 30 590 320 690 NJ
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 3 60 260 NJ 260 790
+preplace netloc pkg_rd_size_0_1 1 0 2 NJ 580 NJ
+preplace netloc processing_system7_0_IIC_0 1 2 1 NJ
+preplace netloc MSXBO_FDMA_0_M00_AXI 1 0 3 20 410 NJ 410 790
+preplace netloc MSXBO_FDMA_0_pkg_rd_last 1 2 1 NJ
+preplace netloc pkg_wr_size_0_1 1 0 2 NJ 520 NJ
+preplace netloc S00_ACLK_1 1 0 3 50 270 330 670 NJ
+preplace netloc MSXBO_FDMA_0_pkg_wr_last 1 2 1 NJ
+preplace netloc pkg_rd_areq_0_1 1 0 2 NJ 540 NJ
+preplace netloc pkg_wr_areq_1 1 0 2 NJ 460 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 2 1 NJ
+preplace netloc clk_wiz_0_clk_out1 1 0 2 40 240 320
+preplace netloc axi_interconnect_0_M00_AXI 1 1 1 N
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 40 250 NJ 250 800
+preplace netloc pkg_wr_data_0_1 1 0 2 NJ 480 NJ
+preplace netloc MSXBO_FDMA_0_pkg_rd_data 1 2 1 NJ
+preplace netloc MSXBO_FDMA_0_pkg_wr_en 1 2 1 NJ
+preplace netloc processing_system7_0_FCLK_CLK1 1 2 1 NJ
+preplace netloc pkg_wr_addr_0_1 1 0 2 NJ 500 NJ
+levelinfo -pg 1 0 190 560 820 -top 0 -bot 710
+",
+}
+{
+   da_axi4_cnt: "3",
+   da_board_cnt: "1",
+   da_clkrst_cnt: "1",
+   da_ps7_cnt: "1",
+}
